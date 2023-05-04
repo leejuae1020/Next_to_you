@@ -12,13 +12,73 @@ body {
   padding: 20px;
   margin-bottom: 5px;
   box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+  opacity: 1;
+  transition: all 1s;
 }
 .list-item h4 {
   font-size: 20px;
   font-weight: 800;
   margin: 0;
+  margin-bottom: 15px;
 }
 .list-item p {
   color: grey;
   margin: 5px 0px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+input {
+  box-sizing: border-box;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(231, 183, 183);
+  font-size: large;
+  margin-right: 5px;
+}
+.list-item a {
+  text-decoration: none;
+}
+
+.list-item a[href^="/detail/"] {
+  color: rgb(0, 0, 0); /* /detail/ 경로에 대한 링크 색상 */
+  text-decoration: none;
+}
+.submit-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: small;
+  margin-right: 5px;
+  background-color: rgb(231, 183, 183); /* 버튼 배경색 */
+  border-radius: 5px; /* 버튼 모서리 둥글게 */
+  padding: 5px 10px; /* 버튼 내부 여백 */
+}
+
+.navbar {
+  background: white;
+  padding: 20px;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  font-weight: bold;
+}
+
+span {
+  cursor: pointer;
+  color: rgb(231, 183, 183);
+  font-size: large;
+  margin-left: 10px;
 }

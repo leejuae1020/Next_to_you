@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { IoHome } from "react-icons/io5";
 
 export default function DetailLink() {
   let router = useRouter();
@@ -10,7 +11,7 @@ export default function DetailLink() {
         router.push("/");
       }}
     >
-      버튼
+      <IoHome />
     </button>
   );
 }
