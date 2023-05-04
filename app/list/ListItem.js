@@ -26,7 +26,7 @@ export default function ListItem({ result }) {
               //     }, 1000);
               //   });
 
-              fetch("/api/test?name=Lee&age=32");
+              fetch("/api/abc/Lee");
             }}
           >
             🗑️
