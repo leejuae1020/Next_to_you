@@ -18,15 +18,12 @@ export default function ListItem({ result }) {
           <button
             className="list-btn"
             onClick={(e) => {
-              //   fetch("/api/post/delete", { method: "DELETE", body: result[i]._id })
-              //   .then(() => {
-              //     e.target.parentElement.style.opacity = 0;
-              //     setTimeout(() => {
-              //       e.target.parentElement.style.display = "none";
-              //     }, 1000);
-              //   });
-
-              fetch("/api/abc/Lee");
+              fetch("/api/post/delete", { method: "DELETE", body: result[i]._id }).then(() => {
+                e.target.parentElement.style.opacity = 0;
+                setTimeout(() => {
+                  e.target.parentElement.style.display = "none";
+                }, 1000);
+              });
             }}
           >
             🗑️
