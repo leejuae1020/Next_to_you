@@ -22,8 +22,11 @@ export default function ListItem({ result }) {
                   e.target.parentElement.style.display = "none";
                 }, 1000);
               });
+<<<<<<< HEAD
 
               fetch("/api/abc/Lee");
+=======
+>>>>>>> b207a5243507c53114d34b786d2606880be255ee
             }}
           >
             🗑️
